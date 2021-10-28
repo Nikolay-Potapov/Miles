@@ -10,6 +10,6 @@ public class Main {
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
         int total = ticketPrice / 20 * OneMiles;
-        System.out.println(total);
+        System.out.println("Начисленные мили = " + total);
     }
 }
