@@ -4,12 +4,12 @@ public class Main {
         // параметров программы: одну для хранения
         // стоимости билета, другую для хранения количества
         // рублей для одной бонусной милли
-     int ticketPrice = 16_000;
-     int OneMiles = 1;
+     int ticketPrice = 11_000;
+     int oneMiles = 1;
         // Рассчитываете количество бонусных милль, используя
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
-        int total = ticketPrice / 20 * OneMiles;
+        int total = ticketPrice / 20 * oneMiles;
         System.out.println("Начисленные мили = " + total);
     }
 }
